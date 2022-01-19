@@ -1,3 +1,22 @@
+![Chatterbug and Slack](/docs/chatterbug-and-slack.png)
+
+Integrate you Chatterbug leaderboard directly in to Slack. In this repo you'll
+find all the tools you need to query Chatterbug's GraphQL API, an integration
+with AWS Lambda and API Gateway, and a Lambda function that returns messages in
+a format consumable by Slack.
+
+After you have everything deployed, you can [create a custom slash command in
+Slack](https://www.hongkiat.com/blog/custom-slash-command-slack/) to get the
+relevant messages in Slack itself.
+
+## Development
+
+There's a small binary that can be built for testing purposes in `cmd/chatterbug-leaderboard`.
+
+```bash
+$ go build ./cmd/chatterbug-leaderboard
+```
+
 ## Deployment
 
 ### Packaging and deployment
