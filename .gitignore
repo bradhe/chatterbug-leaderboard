@@ -1,0 +1,12 @@
+#
+# Development artifacts
+#
+*.sw[onp]
+/.env
+
+#
+# Build artifacts
+#
+/bin
+/chatterbug-leaderboard
+/get-chatterbug-leaderboard
